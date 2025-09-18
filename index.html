@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my portfolio</title>
+    <!-- -------------------- Favicon ----------------  -->
+    <link
+      rel="shortcut icon"
+      href="/assets/images/hand-icon.png"
+      type="image/x-icon"
+    />
+    <!-- ------ Custom CSS ---------  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ------- Boxicons Icon Cdn Link ----------  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-------------  Google Font{Poppins,OutFit} Link -----  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ------------- NAVBAR ---------------  -->
+    <nav class="navbar">
+      <a href="#" class="logo">
+        <h3>Srija<span>Ganja</span></h3>
+      </a>
+      <ul class="nav__lists">
+        <li class="nav__links">
+          <a href="#home" id="active">Home</a>
+        </li>
+        <li class="nav__links"><a href="#about">About Me</a></li>
+
+        <li class="nav__links"><a href="#projects">Projects</a></li>
+        <li class="nav__links"><a href="#technologies">Technologies</a></li>
+        <li class="nav__links"><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__socials-icons">
+        <!-- <i
+          class="ri-sun-fill"
+          id="toggle-mode"
+          title="Toggle dark or light"
+        ></i> -->
+        <a href="https://www.linkedin.com/in/srija-ganja-32a16a291/" target="_blank" class="hide-mobile-screen"
+          ><i class="ri-linkedin-box-fill"></i
+        ></a>
+        <a href="https://github.com/ganjasrija" class="hide-mobile-screen"
+          ><i class="ri-github-fill"></i>
+        </a>
+        <a href="mailto:ganjasrija@gmail.com" class="hide-mobile-screen"
+          > <i class="ri-mail-fill"></i></a>
+        
+      </div>
+
+      <button id="menu-btn">
+        <i class="ri-menu-line"></i>
+      </button>
+    </nav>
+
+    <!-- ------------ Hero Section -------------  -->
+
+    <section class="home" id="home">
+      <div class="container hero__container">
+        <div class="hero__row">
+          <div class="hero__col first">
+            <span class="small-card hero-small-card">Hey, your welcome!</span>
+            <h1 class="heading" id="hide-small-devices">
+              Hello, I'm Srija Ganja
+            </h1>
+            <h1 class="heading" id="show-small-device">
+              <span> Hello, I'm </span><br />
+              Srija Ganja,
+            </h1>
+            <h1 class="sub-heading"> frontend developer</h1>
+
+            <p class="hero__description">
+              Turning ideas into simple, responsive, and engaging websites.
+            </p>
+            <div class="hero-btns">
+              <a
+                href="./Ganja_Srija.pdf"
+                class="btn btn-primary hero__btn" target="_blank"
+                
+                >Resume</a
+              >
+              <a href="#contact" class="secondary-btn">Hire Me</a>
+            </div>
+          </div>
+          <div class="hero__col second">
+            <div class="hero-right-image">
+              <img src="./Black.jpg" alt="" />
+            </div>
+            <div class="hero-ring"></div>
+            <div class="triangle"></div>
+          </div>
+        </div>
+        <!-- <a href="#about" class="scroll-down" title="Scroll down"></a> -->
+      </div>
+    </section>
+
+    <!-- ------------ About Section -------------  -->
+
+    <!-- ================= ABOUT SECTION ================= -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p class="about-intro">
+    I am a motivated and versatile individual, always eager to take on new challenges. 
+    With a passion for learning I am dedicated to delivering high-quality results. 
+    With a positive attitude and a growth mindset, I am ready to make a meaningful 
+    contribution and achieve great things.
+  </p>
+
+  <!-- Floating Blob Background -->
+  <div class="blob blob1"></div>
+  <div class="blob blob2"></div>
+
+  <!-- Technical Skills -->
+  <div class="section skills">
+    <h3>⚡ Technical Skills</h3>
+    <div class="tags">
+      <span>DSA</span><span>C++</span><span>Python</span>
+      <span>Java</span><span>C</span><span>Problem Solving</span>
+    </div>
+  </div>
+
+  <!-- Education -->
+  <div class="section education">
+    <h3>🎓 Education</h3>
+    <ul>
+      <li><strong>B.Tech (CSE)</strong> – 2023–Present <em>92%</em></li>
+      <li><strong>Intermediate (MPC)</strong> – 2021–2023<em>98.8%</em></li>
+      <li><strong>High School</strong> – 2012–2021 <em>95%</em></li>
+    </ul>
+  </div>
+
+  <!-- Certifications -->
+  <div class="section certs">
+    <h3>🏅 Certifications</h3>
+    <ul>
+      <li>Oracle-Java Foundation Associate</li>
+      <li>Red Hat System Administration – Linux SysAdmin</li>
+      <li>Cisco Networking Academy – C, Python, C++</li>
+    </ul>
+  </div>
+
+  <!-- Tools -->
+  <div class="most-use">
+    <h3>🛠 Tools I Use</h3>
+    <ul class="tools">
+      <li><img src="https://cdn-icons-png.flaticon.com/512/906/906324.png" alt="VS Code" title="VS Code" /></li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="HTML5" title="HTML5" /></li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png" alt="CSS3" title="CSS3" /></li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" alt="JavaScript" title="JavaScript" /></li>
+      <li><img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png" alt="Git" title="Git" /></li>
+    </ul>
+  </div>
+</section>
+
+
+
+
+
+<!-- ------------ Projects Section -------------  -->
+<section class="projects" id="projects">
+  <div class="container projects__container">
+    <div class="header-text projects-header">
+      <div class="small-card">Featured Works</div>
+      <h3 class="title">Projects</h3>
+    </div>
+
+    <div class="projects__main-container">
+      <div class="projects__cards">
+             <!-- Project 2 -->
+        <div class="projects__card fade-in" style="--delay:0.2s">
+          <!-- <div class="project-image">
+            <img src="./assets/images/project-2.jpg" alt="AI Telehealth" />
+          </div> -->
+          <div class="card-header">
+            <h3>Campus Notify</h3>
+          </div>
+          <p class="card-description">
+              A campus notification website to share important updates, events, and alerts with students in real time
+          </p>
+          <div class="tech-used">
+            <span>Html</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+          <div class="cards-btns">
+            <a href="https://github.com/ganjasrija/Campus-Notify" target="_blank">GitHub <i class="ri-github-fill"></i></a>
+          </div>
+        </div>
+
+        <!-- Project 1 -->
+<div class="projects__card fade-in" style="--delay:0.4s">
+  <div class="card-header">
+    <h3>SkillHub</h3>
+  </div>
+  <p class="card-description">
+    A course platform built with HTML and CSS that provides access to various courses in a clean and responsive layout.
+  </p>
+  <div class="tech-used">
+    <span>HTML</span>
+    <span>CSS</span>
+  </div>
+  <div class="cards-btns">
+     <a href="https://github.com/ganjasrija/Campus-Notify" target="_blank">GitHub <i class="ri-github-fill"></i></a>
+  </div>
+</div>
+
+   
+
+        <div class="projects__card fade-in" style="--delay:0.4s">
+  
+  <div class="card-header">
+    <h3>Personal Portfolio Website</h3>
+  </div>
+  <p class="card-description">
+    A fully responsive personal portfolio showcasing my skills, technologies, and projects with smooth animations.
+  </p>
+  <div class="tech-used">
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+  <div class="cards-btns">
+ <a href="https://github.com/ganjasrija/Campus-Notify" target="_blank">GitHub <i class="ri-github-fill"></i></a>
+  </div>
+</div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Technologies Section -->
+<section class="technologies" id="technologies">
+  <div class="tech-header">
+    <h2 class="tech-title">Technologies I Work With</h2>
+  </div>
+
+  <div class="tech-grid">
+    <span style="--i:1">HTML</span>
+    <span style="--i:2">CSS</span>
+    <span style="--i:3">JavaScript</span>
+    <span style="--i:4">React</span>
+  
+    <span style="--i:6">Git & GitHub</span>
+    <span style="--i:7">Bootstrap</span>
+  
+    <span style="--i:9">SQL</span>
+    <span style="--i:10">Figma</span>
+  </div>
+</section>
+
+
+    <!-- ------------------ Contact US ---------------  -->
+
+    <!-- ------------------ Contact ------------------ -->
+<section class="contact" id="contact">
+  <div class="container contact__container">
+    <div class="contact-header">
+      <h2>Get in Touch</h2>
+      <p>If you have a project idea, collaboration, or just want to say hello — drop a message.</p>
+    </div>
+
+    <div class="contact-content">
+      <!-- Left: Form -->
+      <form action="#" class="form" autocomplete="off">
+        <div class="input-box">
+          <input type="text" id="name" placeholder="Your Name *" required />
+        </div>
+        <div class="input-box">
+          <input type="email" id="email" placeholder="Your Email *" required />
+        </div>
+        <div class="input-box">
+          <textarea id="message" placeholder="Your Message *" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+
+      <!-- Right: Contact Info -->
+      <div class="contact-info">
+        <div class="info-card">
+          <i class="ri-mail-fill"></i>
+          <h4>Email</h4>
+          <p>ganjasrija@gmail.com</p>
+        </div>
+        <div class="info-card">
+          <i class="ri-phone-fill"></i>
+          <h4>Phone</h4>
+          <p>+91 7794882513</p>
+        </div>
+        <div class="info-card">
+          <i class="ri-map-pin-2-fill"></i>
+          <h4>Location</h4>
+          <p>Amalapuram</p>
+        </div>
+        <div class="info-socials">
+          <a href="#">LinkedIn</a> | 
+          <a href="#">GitHub</a> | 
+          <a href="#">Instagram</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+   <!-- ------------------ Footer ----------------  -->
+<!-- ------------------ Footer ----------------  -->
+<footer class="site-footer">
+  <div class="site-footer__container">
+    <h3 class="site-footer__logo">Srija Ganja</h3>
+
+    <!-- Footer Navigation -->
+    <div class="site-footer__nav">
+      <a href="#about">AboutMe</a>
+      <a href="#projects">Projects</a>
+  
+      <a href="#technologies">Technologies</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Social Links -->
+    <div class="site-footer__socials">
+      <a href="https://github.com/yourgithub" target="_blank" title="GitHub">
+        <i class="ri-github-fill"></i>
+      </a>
+      <a href="https://linkedin.com/in/yourlinkedin" target="_blank" title="LinkedIn">
+        <i class="ri-linkedin-box-fill"></i>
+      </a>
+      <a href="mailto:ganjasrija@gmail.com" title="Email">
+        <i class="ri-mail-fill"></i>
+      </a>
+    </div>
+
+    <p class="site-footer__text">© 2025 Srija, All rights reserved.</p>
+  </div>
+</footer>
+
+   
+
+
+
+    
+    <!-- ----------- Custom JS --------------------  -->
+
+    <script src="./js/script.js"></script>
+
+    <!-- --------------------- FOR SMOOTH SCROLL ------------------  -->
+    <script src="https://unpkg.com/lenis@1.1.9/dist/lenis.min.js"></script>
+    <script>
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        // console.log(e);
+      });
+
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+    </script>
+  </body>
+</html>
